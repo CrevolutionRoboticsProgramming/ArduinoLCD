@@ -73,8 +73,9 @@ void loop() {
     {
       topLayer++;
     }
+    
+    UpdateDisplay(topLayer);
   }
-  UpdateDisplay(topLayer);
  
 }
 
