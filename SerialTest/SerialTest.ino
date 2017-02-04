@@ -74,11 +74,8 @@ void loop() {
       topLayer++;
     }
   }
-  if(counter % 5000 == 0)
-  {
-    UpdateDisplay(topLayer);
-  }
-  counter++;
+  UpdateDisplay(topLayer);
+ 
 }
 
 void UpdateDisplay (int topLayer)
